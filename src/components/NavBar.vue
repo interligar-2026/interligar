@@ -160,7 +160,7 @@ const isMenuOpen = ref(false)
   .nav-links.active ~ .nav-actions {
     display: block;
     position: absolute;
-    top: calc(65px + 240px); /* Posiciona ele perfeitamente grudado embaixo do menu */
+    top: calc(65px + 240px);
     left: 0;
     width: 100%;
     background-color: #0c3c7c;
