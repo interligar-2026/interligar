@@ -5,6 +5,7 @@
     <HowITWorks />
     <FeaturesSection />
     <TrustBar />
+    <TheFooter />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import HeroSection from '../components/HeroSection.vue'
 import HowITWorks from '../components/HowItWorks.vue'
 import FeaturesSection from '../components/FeaturesSection.vue';
 import TrustBar from '../components/TrustBar.vue';
+import TheFooter from '../components/TheFooter.vue';
 </script>
 
 <style>
