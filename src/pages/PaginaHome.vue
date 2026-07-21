@@ -4,6 +4,7 @@
     <HeroSection />
     <HowITWorks />
     <FeaturesSection />
+    <TrustBar />
   </div>
 </template>
 
@@ -11,7 +12,8 @@
 import Navbar from '../components/NavBar.vue'
 import HeroSection from '../components/HeroSection.vue'
 import HowITWorks from '../components/HowItWorks.vue'
-import FeaturesSection from '@/components/FeaturesSection.vue';
+import FeaturesSection from '../components/FeaturesSection.vue';
+import TrustBar from '../components/TrustBar.vue';
 </script>
 
 <style>

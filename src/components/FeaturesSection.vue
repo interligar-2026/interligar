@@ -75,8 +75,8 @@ import { FileSpreadsheet, GraduationCap, ChevronRight } from 'lucide-vue-next'
 
 .explore-header-title {
   color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 800;
   margin: 0;
   text-align: center;
 }
@@ -141,7 +141,6 @@ import { FileSpreadsheet, GraduationCap, ChevronRight } from 'lucide-vue-next'
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover;
 }
 
 .feature-info-content {
