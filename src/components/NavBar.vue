@@ -1,12 +1,10 @@
 <template>
   <nav class="navbar">
-
-      <img src="../assets/logo.png" alt="Logo Interliga" class="logo-img" />
-
+    <img src="../assets/logo.png" alt="Logo Interliga" class="logo-img" />
 
     <ul class="nav-links" :class="{ active: isMenuOpen }">
-      <li><a href="#">Início</a></li>
-      <li><a href="#">Simulados</a></li>
+      <router-link to="/" class="nav-link"> Inicio </router-link>
+      <router-link to="/simulados" class="nav-link"> Simulados </router-link>
       <li><a href="#">Cursos</a></li>
       <li><a href="#">Sobre nós</a></li>
     </ul>
@@ -50,7 +48,6 @@ const isMenuOpen = ref(false)
   max-width: 1400px;
   margin: 20px auto;
 }
-
 
 .logo-img {
   height: 48px;
