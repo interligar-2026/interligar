@@ -5,7 +5,7 @@
     <ul class="nav-links" :class="{ active: isMenuOpen }">
       <router-link to="/" class="nav-link"> Inicio </router-link>
       <router-link to="/simulados" class="nav-link"> Simulados </router-link>
-      <li><a href="#">Cursos</a></li>
+      <router-link to="/cursos" class="nav-link"> Cursos </router-link>
       <li><a href="#">Sobre nós</a></li>
     </ul>
 
