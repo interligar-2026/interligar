@@ -10,7 +10,7 @@
     </ul>
 
     <div class="nav-actions" :class="{ active: isMenuOpen }">
-      <a href="#" class="btn-login">Entrar</a>
+      <router-link to="/login" class="btn-login"> Entrar </router-link>
     </div>
 
     <button class="menu-toggle" @click="isMenuOpen = !isMenuOpen">
