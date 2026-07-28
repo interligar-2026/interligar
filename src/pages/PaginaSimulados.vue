@@ -2,12 +2,16 @@
   <div class="page-container">
     <Navbar />
     <SimuladosHero />
+    <SimuladosCards />
+    <TheFooter />
   </div>
 </template>
 
 <script setup>
 import Navbar from '../components/NavBar.vue'
 import SimuladosHero from '../components/SimuladosHero.vue';
+import SimuladosCards from '@/components/SimuladosCards.vue';
+import TheFooter from '@/components/TheFooter.vue';
 </script>
 
 <style>
