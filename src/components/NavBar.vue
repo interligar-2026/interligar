@@ -6,7 +6,7 @@
       <router-link to="/" class="nav-link"> Inicio </router-link>
       <router-link to="/simulados" class="nav-link"> Simulados </router-link>
       <router-link to="/cursos" class="nav-link"> Cursos </router-link>
-      <li><a href="#">Sobre nós</a></li>
+      <router-link to="/sobre-nos" class="nav-link"> Sobre Nós </router-link>
     </ul>
 
     <div class="nav-actions" :class="{ active: isMenuOpen }">
