@@ -3,6 +3,8 @@
     <Navbar />
     <CursosHero />
     <CursosLista />
+    <CursosPagos />
+    <TheFooter />
   </div>
 </template>
 
@@ -10,6 +12,8 @@
 import Navbar from '../components/NavBar.vue'
 import CursosHero from '@/components/CursosHero.vue';
 import CursosLista from '@/components/CursosLista.vue';
+import CursosPagos from '@/components/CursosPagos.vue';
+import TheFooter from '@/components/TheFooter.vue';
 </script>
 
 <style>
