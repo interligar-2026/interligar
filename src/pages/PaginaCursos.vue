@@ -2,12 +2,14 @@
   <div class="page-container">
     <Navbar />
     <CursosHero />
+    <CursosLista />
   </div>
 </template>
 
 <script setup>
 import Navbar from '../components/NavBar.vue'
 import CursosHero from '@/components/CursosHero.vue';
+import CursosLista from '@/components/CursosLista.vue';
 </script>
 
 <style>
